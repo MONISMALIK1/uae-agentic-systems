@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masar"
+version = "0.1.0"
+description = "Construction approval sequencing for UAE permitting authorities: prerequisite checks, critical path and forecast dates computed in Python, with a gate that holds any drafted advice citing a reference the project doesn't carry, stating a date nothing computed, or urging a filing the engine marked unfilable."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+agents = ["anthropic>=0.60"]
+
+[project.scripts]
+masar = "masar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

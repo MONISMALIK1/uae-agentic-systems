@@ -1,0 +1,31 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  masar:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      # Hermetic: the sequencing gate is verified on constructed evidence and
+      # a stubbed client, so CI needs no API key and cannot drift with model
+      # behaviour.
+      - name: masar tests
+        working-directory: masar
+        run: |
+          PYTHONPATH=src python tests/test_masar.py
+          PYTHONPATH=src python tests/test_agents.py
+
+      - name: masar gate holds end to end
+        working-directory: masar
+        run: PYTHONPATH=src python tests/check_schedule.py

@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Run output — contains project names, authority references and drafted
+# advice. Keep it out of the repo.
+schedule.csv
+*.schedule.csv

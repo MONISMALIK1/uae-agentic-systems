@@ -1,0 +1,26 @@
+project_id,project_name,jurisdiction,approval_code,status,filed_on,granted_on,documents_held,reference
+PRJ-001,Marina Tower C,dubai_municipality,AFF,granted,2026-05-02,2026-05-08,title_deed;site_plan,AFF-2026-1144
+PRJ-001,Marina Tower C,dubai_municipality,CONCEPT,granted,2026-05-12,2026-06-01,architectural_drawings;site_plan,CON-2026-3301
+PRJ-001,Marina Tower C,dubai_municipality,DCD_DESIGN,granted,2026-06-05,2026-06-23,fire_strategy;architectural_drawings;mep_drawings,DCD-2026-8812
+PRJ-001,Marina Tower C,dubai_municipality,DEWA_NOC,filed,2026-06-10,,load_schedule;site_plan;mep_drawings,DEWA-2026-5510
+PRJ-001,Marina Tower C,dubai_municipality,SEWER_NOC,granted,2026-06-08,2026-06-28,drainage_drawings;site_plan,SEW-2026-2204
+PRJ-001,Marina Tower C,dubai_municipality,RTA_NOC,granted,2026-06-09,2026-07-01,access_drawings;traffic_impact_study,RTA-2026-7719
+PRJ-001,Marina Tower C,dubai_municipality,TELECOM_NOC,granted,2026-06-11,2026-06-26,mep_drawings,TEL-2026-4408
+PRJ-001,Marina Tower C,dubai_municipality,BUILDING_PERMIT,filed,2026-07-02,,structural_drawings;architectural_drawings;soil_report;contractor_licence,BP-2026-9902
+PRJ-002,Business Bay Plot 14,trakhees,AFF,granted,2026-06-01,2026-06-07,title_deed;site_plan,AFF-2026-2255
+PRJ-002,Business Bay Plot 14,trakhees,CONCEPT,granted,2026-06-10,2026-07-02,architectural_drawings;site_plan,CON-2026-4412
+PRJ-002,Business Bay Plot 14,trakhees,DCD_DESIGN,granted,2026-07-05,2026-07-24,fire_strategy;architectural_drawings;mep_drawings,DCD-2026-9031
+PRJ-002,Business Bay Plot 14,trakhees,DEWA_NOC,granted,2026-07-06,2026-08-01,load_schedule;site_plan;mep_drawings,DEWA-2026-6620
+PRJ-002,Business Bay Plot 14,trakhees,SEWER_NOC,granted,2026-07-08,2026-08-04,drainage_drawings;site_plan,SEW-2026-3318
+PRJ-002,Business Bay Plot 14,trakhees,RTA_NOC,granted,2026-07-09,2026-08-06,access_drawings;traffic_impact_study,RTA-2026-8820
+PRJ-002,Business Bay Plot 14,trakhees,TELECOM_NOC,granted,2026-07-10,2026-07-28,mep_drawings,TEL-2026-5519
+PRJ-002,Business Bay Plot 14,trakhees,BUILDING_PERMIT,not_started,,,structural_drawings;architectural_drawings;soil_report,
+PRJ-003,JVC Villas Phase 2,dubai_municipality,AFF,granted,2026-07-14,2026-07-20,title_deed;site_plan,AFF-2026-3366
+PRJ-003,JVC Villas Phase 2,dubai_municipality,CONCEPT,filed,2026-08-01,,architectural_drawings;site_plan,CON-2026-5523
+PRJ-003,JVC Villas Phase 2,dubai_municipality,DCD_DESIGN,not_started,,,,
+PRJ-003,JVC Villas Phase 2,dubai_municipality,DEWA_NOC,not_started,,,load_schedule,
+PRJ-004,Dubai South Logistics Hub,dubai_south,AFF,granted,2026-08-03,2026-08-09,title_deed;site_plan,AFF-2026-4477
+PRJ-004,Dubai South Logistics Hub,dubai_south,CONCEPT,granted,2026-08-12,2026-09-02,architectural_drawings;site_plan,CON-2026-6634
+PRJ-004,Dubai South Logistics Hub,dubai_south,DCD_DESIGN,approved,2026-09-05,,fire_strategy;architectural_drawings;mep_drawings,DCD-2026-1190
+PRJ-004,Dubai South Logistics Hub,dubai_south,DEWA_NOC,not_started,,,site_plan,
+PRJ-004,Dubai South Logistics Hub,dubai_south,ZZ_UNKNOWN,not_started,,,,
