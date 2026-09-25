@@ -29,3 +29,24 @@ jobs:
       - name: masar gate holds end to end
         working-directory: masar
         run: PYTHONPATH=src python tests/check_schedule.py
+
+  athar:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: athar tests
+        working-directory: athar
+        run: |
+          PYTHONPATH=src python tests/test_athar.py
+          PYTHONPATH=src python tests/test_agents.py
+
+      - name: athar gate holds end to end
+        working-directory: athar
+        run: PYTHONPATH=src python tests/check_attributions.py

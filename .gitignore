@@ -11,3 +11,5 @@ dist/
 # advice. Keep it out of the repo.
 schedule.csv
 *.schedule.csv
+attributions.csv
+*.attributions.csv

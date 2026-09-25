@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "athar"
+version = "0.1.0"
+description = "Fleet fine attribution for UAE vehicle operators: the custody join, dispute clock and evidence check computed in Python, with a gate that holds any draft naming a driver the engine could not establish."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+agents = ["anthropic>=0.60"]
+
+[project.scripts]
+athar = "athar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,13 @@
+fine_id,plate,issued_at,received_at,source,location,amount_aed,black_points
+FN-00001,A12345,2026-09-02 14:22,2026-09-14,dubai_police,Sheikh Zayed Road,600,0
+FN-00002,A12345,2026-09-05 08:05,2026-09-16,dubai_police,Al Khail Road,1500,4
+FN-00003,B77210,2026-09-08 19:40,2026-09-18,abu_dhabi_police,E11 Abu Dhabi,800,0
+FN-00004,B77210,2026-09-11 07:58,2026-09-19,rta_salik,Al Barsha Gate,5,0
+FN-00005,C55019,2026-09-12 23:15,2026-09-20,dubai_police,Jumeirah Beach Road,3000,8
+FN-00006,C55019,2026-09-14 10:30,2026-09-21,parking,Deira Car Park,200,0
+FN-00007,D30881,2026-09-15 16:05,2026-09-21,dubai_police,Emirates Road,700,0
+FN-00008,E91002,2026-09-16 12:00,2026-09-22,sharjah_police,Sharjah Ring Road,900,0
+FN-00009,A12345,2026-08-01 09:15,2026-09-20,dubai_police,Al Wasl Road,400,0
+FN-00010,F44117,not-a-timestamp,2026-09-21,dubai_police,Unknown,650,0
+FN-00011,G20044,2026-09-17 05:45,2026-09-22,rta_salik,Airport Tunnel,5,0
+FN-00012,D30881,2026-09-18 21:10,2026-09-22,dubai_police,Hessa Street,1200,4
