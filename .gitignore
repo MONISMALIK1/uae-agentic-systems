@@ -13,3 +13,5 @@ schedule.csv
 *.schedule.csv
 attributions.csv
 *.attributions.csv
+projections.csv
+*.projections.csv

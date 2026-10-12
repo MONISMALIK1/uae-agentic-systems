@@ -50,3 +50,24 @@ jobs:
       - name: athar gate holds end to end
         working-directory: athar
         run: PYTHONPATH=src python tests/check_attributions.py
+
+  ufuq:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: ufuq tests
+        working-directory: ufuq
+        run: |
+          PYTHONPATH=src python tests/test_ufuq.py
+          PYTHONPATH=src python tests/test_agents.py
+
+      - name: ufuq gate holds end to end
+        working-directory: ufuq
+        run: PYTHONPATH=src python tests/check_projections.py

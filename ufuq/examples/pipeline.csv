@@ -1,0 +1,15 @@
+company_id,event_id,event_type,stage,is_emirati,is_skilled,expected_date
+CO-1001,REQ-20101,hire,accepted,yes,yes,2026-10-15
+CO-1001,REQ-20102,hire,offered,yes,yes,2026-11-01
+CO-1001,REQ-20103,hire,sourcing,yes,yes,2026-11-20
+CO-1001,REQ-20104,hire,accepted,no,yes,2026-10-01
+CO-1001,EXT-30101,exit,confirmed,yes,yes,2026-10-20
+CO-1002,REQ-20201,hire,sourcing,yes,yes,2026-12-01
+CO-1002,REQ-20202,hire,sourcing,yes,yes,2026-12-10
+CO-1002,REQ-20203,hire,accepted,no,yes,2026-10-05
+CO-1003,REQ-20301,hire,accepted,yes,yes,2026-10-10
+CO-1003,REQ-20302,hire,offered,yes,yes,2026-11-05
+CO-1005,REQ-20501,hire,accepted,yes,yes,2026-10-08
+CO-1005,REQ-20502,hire,accepted,yes,yes,2026-10-22
+CO-1005,REQ-20503,hire,offered,no,yes,2026-11-15
+CO-1006,REQ-20601,hire,accepted,yes,yes,not-a-date

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ufuq"
+version = "0.1.0"
+description = "Emiratisation runway projection for UAE employers: headcount projections, gaps, exposure and the last-safe-requisition date computed in Python, with a gate that holds any draft reassuring a company the engine computed as in breach."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+agents = ["anthropic>=0.60"]
+
+[project.scripts]
+ufuq = "ufuq.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
