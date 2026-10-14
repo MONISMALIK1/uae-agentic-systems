@@ -15,3 +15,5 @@ attributions.csv
 *.attributions.csv
 projections.csv
 *.projections.csv
+review.csv
+*.review.csv

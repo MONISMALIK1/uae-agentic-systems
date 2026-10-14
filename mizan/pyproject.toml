@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mizan"
+version = "0.1.0"
+description = "District cooling capacity-charge verification: the evidence test, justified demand and the recoverable ceiling computed in Python, with a gate that holds any claim exceeding what the evidence supports."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+agents = ["anthropic>=0.60"]
+
+[project.scripts]
+mizan = "mizan.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

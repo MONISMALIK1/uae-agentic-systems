@@ -1,0 +1,9 @@
+unit_id,building,unit_type,allocated_rt,rate_aed_per_rt_year,owner_ref
+UNT-0101,Marina Heights,retail,45,3200,OWN-5501
+UNT-0102,Marina Heights,office,30,3200,OWN-5502
+UNT-0103,Marina Heights,apartment,12,3200,OWN-5503
+UNT-0104,Marina Heights,storage,18,3200,OWN-5504
+UNT-0201,Bay Residences,apartment,10,2950,OWN-6610
+UNT-0202,Bay Residences,apartment,9,2950,OWN-6611
+UNT-0203,Bay Residences,retail,38,2950,OWN-6612
+UNT-0301,Creek Offices,office,,3400,OWN-7720

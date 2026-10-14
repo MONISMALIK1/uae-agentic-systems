@@ -26,6 +26,7 @@ checks.
 | [**masar**](masar/) — *path* | Construction approvals in Dubai are a dependency graph nobody has written down. Submitting out of sequence costs a full authority cycle, and the mistake is discovered weeks later. | …cites a permit number the project doesn't carry, states a date nothing computed, or urges filing an approval the engine marked unfilable |
 | [**athar**](athar/) — *trace* | A traffic fine attaches to a plate, not a driver. For fleets where the vehicle changes hands, attribution is a temporal join — and the output is an accusation that leads to a card charge or a wage conversation. | …names a driver the engine could not establish, cites an identifier not in the run, or states a figure nothing computed |
 | [**ufuq**](ufuq/) — *horizon* | Emiratisation targets rise on a schedule and hiring takes months, so a breach becomes arithmetically unavoidable long before the deadline. The failure mode is false comfort, not a wrong number. | …reassures a company the engine computed as in breach, cites a requisition that doesn't exist, or states a figure nothing computed |
+| [**mizan**](mizan/) — *the scales* | District cooling capacity charges are billed on an allocation set at handover and never revisited. The error never looks anomalous — it is a slightly-too-high normal, forever. | …claims more than the computed ceiling, attaches claim language to a unit whose evidence can't support a finding, or states a figure nothing computed |
 
 *More systems are added here over time; each is self-contained and runs on its
 own.*
